@@ -1,0 +1,32 @@
+.content{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 700px;
+}
+.box{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    flex-basis: auto;
+
+    overflow: auto;
+    border: 1px solid black;
+    color: white;
+    font-family: "Arial Black", serif;
+    font-size: 35px;
+    background: rgba(227, 151, 52, 0.89);
+}
+.box:hover{
+    background: gray;
+}
+.smallText{
+    font-size: 20px;
+    font-family: "Bell MT", serif;
+
+}

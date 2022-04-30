@@ -1,0 +1,24 @@
+.rating{
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    border: 1px solid black;
+    margin: 20px;
+
+    height: 200px;
+    align-items: center;
+}
+.t2 {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.t2 li {
+    display: inline;
+    padding-left: 2rem;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Star_empty.svg/471px-Star_empty.svg.png');
+    background-size: contain;
+    margin: 15px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}

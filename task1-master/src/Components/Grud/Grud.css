@@ -1,0 +1,146 @@
+
+.grud-main{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 700px;
+    display: flex;
+    border: 5px solid black;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(72, 71, 71);
+
+}
+
+.blog{
+    flex: 1 1 auto;
+    background-color: rgb(116, 115, 115);
+    border-bottom: 1px solid black;
+}
+
+.blog-posts{
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+
+    background: linear-gradient(to left, rgb(95, 95, 95) 50%, rgb(51, 51, 51) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+.blog-posts:hover{
+    background-position: left;
+    cursor: pointer;
+    color: white;
+}
+
+.title{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    height: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.table{
+    margin-left: 20px;
+    transition: 0.9s;
+
+}
+.table:hover{
+    color: orange;
+    box-shadow: 0px 5px 50px 2px rgba(205, 128, 5, 0.2) inset;
+    cursor: pointer;
+    
+}
+.start{
+    display: flex;
+    justify-content: flex-end;
+}
+.dot {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(188, 75, 0);
+    border-radius: 50%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.9s;
+  }
+.dot:hover{
+    background-color: rgb(205, 128, 5);
+    cursor: pointer;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    margin:10px;
+}
+.title-data{
+    display: flex;
+    color: black;
+    font-size: 25px;
+    margin-left: 5px;
+    height: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-group label{
+    font-size: 25px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-control{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.back{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.save{
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 500px;
+    transition: 0.9s;
+}
+.save:hover{
+    color: white;
+    cursor: pointer;
+}
+.delete{
+    height: 50px;
+    width: 70px;
+    margin-left: 10px;
+    font-size: 25px;
+    transition: 0.9s;
+}
+.delete:hover{
+    cursor: pointer;
+}
